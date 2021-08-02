@@ -1,10 +1,9 @@
 import os
 import logging
-import jsonpickle
 import requests
 import elasticapm
 import json
-from sf_apm_lib import snappyflow as sf
+from sf_apm_lib import snappyflow
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
