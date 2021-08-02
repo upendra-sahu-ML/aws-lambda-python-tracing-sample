@@ -1,0 +1,4 @@
+jsonpickle==1.3
+sf-apm-lib
+requests
+elastic-apm
