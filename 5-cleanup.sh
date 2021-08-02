@@ -1,6 +1,6 @@
 #!/bin/bash
 set -eo pipefail
-STACK=blank-python
+STACK=aws-lambda-python-tracing-sample
 if [[ $# -eq 1 ]] ; then
     STACK=$1
     echo "Deleting stack $STACK"
