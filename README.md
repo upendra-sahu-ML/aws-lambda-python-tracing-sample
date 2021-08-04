@@ -48,7 +48,7 @@ To deploy the application, run `3-deploy.sh`.
 
 This script uses AWS CloudFormation to deploy the Lambda functions and an IAM role. If the AWS CloudFormation stack that contains the resources already exists, the script updates it with any changes to the template or function code.
 # Configure ENV variables
-Configure These env variable in AWS lambda
+Configure these env variables in AWS lambda function
 - PROJECT_NAME: Name of the project in SnappyFlow
 - APP_NAME: Name of the application in SnappyFlow
 - SF_PROFILE_KEY: Key copied from SnappyFlow Profile
